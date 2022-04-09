@@ -4,6 +4,7 @@
 
 <main class="form-signin text-center">
         <form>
+                <p>hola  git</p>
                 <img class="mb-4" src="{{ asset('img/logo2.svg') }}" alt="" width="200" height="200">
                 <h1 class="h3 mb-3 fw-normal">Bienvenido</h1>
 
