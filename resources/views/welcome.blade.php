@@ -4,7 +4,6 @@
 
 <main class="form-signin text-center">
         <form>
-                <p>hola  git nueva modificacion</p>
                 <img class="mb-4" src="{{ asset('img/logo2.svg') }}" alt="" width="200" height="200">
                 <h1 class="h3 mb-3 fw-normal">Bienvenido</h1>
 
@@ -20,6 +19,8 @@
 
                 <button class="w-100 btn btn-lg  btningreso" type="submit">INGRESAR</button>
                 <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+                <p>Registrate <a href="">Aqui</a>.</p>
+                
         </form>
 </main>
 
