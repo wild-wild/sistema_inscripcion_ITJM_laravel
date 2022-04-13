@@ -3,13 +3,6 @@ body {
     height: 100%;
 }
 
-body {
-    display: flex;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 .form-signin {
     width: 100%;
     max-width: 330px;
@@ -38,6 +31,17 @@ body {
 }
 
 .btningreso {
-    color: rgb(26, 21, 21);
-    background-color: rgb(145, 208, 212);
+    color: #353535;
+    background-color: #39b3e6;
+}
+
+.itjm {
+    color: rgb(247, 247, 247);
+    background-color: #39b3e6;
+    display: flex;
+    align-items: center;
+}
+
+.itjm:hover {
+    color: #353535;
 }

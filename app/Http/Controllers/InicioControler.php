@@ -11,9 +11,17 @@ class InicioControler extends Controller
     return view('welcome');
     }
 
-    public function regsitro()
+    public function registro()
     {
-    //return view('registro');
-    return "hola";
+    return view('registro');
+    }
+    public function panel()
+    {
+        return view('panel');
+    }
+    public function barraLateral()
+    {
+        return view('barraLateral');
     }
 }
+

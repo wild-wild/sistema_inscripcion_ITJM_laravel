@@ -16,8 +16,11 @@
 
 <body>
 
+   
+
     @yield('contenidoPrincipal')
 
+   
     <!-- Bootstrap js -->
     <script src="{{ asset('js/app.js') }}"></script> 
     

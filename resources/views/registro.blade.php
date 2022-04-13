@@ -4,7 +4,7 @@
 <main class="form-signin text-center">
         <form>
           <img class="mb-4" src="{{ asset('img/logo.svg') }}" alt="" width="90" height="90">
-          <h1 class="h3 mb-3 fw-normal">Registrarse</h1>
+          <h1 class="h4 mb-3 fw-normal">Registrarse</h1>
       
           <div class="form-floating">
             <input type="text" class="form-control"  placeholder="Usuario">
@@ -32,6 +32,7 @@
       
           <button class="w-100 btn btn-lg  btningreso" type="submit">Registrar</button>
           <p class="mt-2 mb-3 text-muted">wild&copy;2022</p>
+          <p>Registrate <a href="{{url('/')}}">Aqui</a>.</p>
         </form>
       </main>
 @endsection
