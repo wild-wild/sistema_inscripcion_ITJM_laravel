@@ -2,11 +2,9 @@
 <html lang="es">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
+    <!--Bootstrap CSS-->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- mi estilos CSS -->
     <link href="{{ asset('css/estilos.css') }}" rel="stylesheet">
@@ -16,14 +14,14 @@
 
 <body>
 
-   
+
 
     @yield('contenidoPrincipal')
 
-   
+
+
     <!-- Bootstrap js -->
-    <script src="{{ asset('js/app.js') }}"></script> 
-    
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>
