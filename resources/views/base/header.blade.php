@@ -20,7 +20,7 @@
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Cerrar</a></li>
+                    <li><a class="dropdown-item" href="/">Cerrar</a></li>
                 </ul>
             </div>
         </div>
