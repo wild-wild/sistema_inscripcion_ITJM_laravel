@@ -1,11 +1,13 @@
 
     <nav class="navbar itjm">
         <div class="container-fluid">
+            <!--logo itjm-->
             <a class="navbar-brand itjm" href="{{ url('/') }}">
                 <img src="{{ asset('img/logo.svg') }}" alt="" width="50" height="50" class="d-inline-block align-text-top">
                 <p class="h3 itjm m-1">Instituto Tegnológico Jesus Maria</p>
             </a>
-            <div class="dropdown pb-4">
+             <!--menu usuario-->
+            <div class="dropdown pb-6 h3">
                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
                     id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="{{ asset('img/logo.svg') }}" alt="hugenerd" width="30" height="30"

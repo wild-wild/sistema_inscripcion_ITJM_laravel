@@ -14,9 +14,11 @@ class InicioControler extends Controller
     {
         return view('registro');
     }
-
     public function panel()
     {
         return view('panel');
+    }
+    public function panel1(){
+        return view('panel1');
     }
 }

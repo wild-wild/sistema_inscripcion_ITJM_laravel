@@ -8,17 +8,15 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- mi estilos CSS -->
     <link href="{{ asset('css/estilos.css') }}" rel="stylesheet">
+    <!-- mi estilos CSS color de iconos -->
+    <link href="{{ asset('css/colorIconos.css') }}" rel="stylesheet">
     <!--titulo-->
     <title>ITJM</title>
 </head>
 
-<body>
-
-
+<body class="ba-itjm">
 
     @yield('contenidoPrincipal')
-
-
 
     <!-- Bootstrap js -->
     <script src="{{ asset('js/app.js') }}"></script>

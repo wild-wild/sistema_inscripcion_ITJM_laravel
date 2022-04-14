@@ -7,26 +7,26 @@
             <h1 class="h4 mb-3 fw-normal">Registrarse</h1>
 
             <div class="form-floating">
-                <input type="text" class="form-control" placeholder="Usuario">
+                <input type="text" class="form-control ba-itjm" placeholder="Usuario">
                 <label>Usuario</label>
             </div>
 
             <div class="form-floating">
-                <input type="text" class="form-control" placeholder="Usuario">
+                <input type="text" class="form-control ba-itjm" placeholder="Usuario">
                 <label>Nombre</label>
             </div>
 
             <div class="form-floating">
-                <input type="text" class="form-control" placeholder="Usuario">
+                <input type="text" class="form-control ba-itjm" placeholder="Usuario">
                 <label>Apellido</label>
             </div>
 
             <div class="form-floating">
-                <input type="password" class="form-control" placeholder="Contraseña">
+                <input type="password" class="form-control ba-itjm" placeholder="Contraseña">
                 <label>Contraseña</label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" placeholder="Repetir Contraseña">
+                <input type="password" class="form-control ba-itjm" placeholder="Repetir Contraseña">
                 <label>Repetir Contraseña</label>
             </div>
 

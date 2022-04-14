@@ -1,7 +1,36 @@
-html,
+:root {
+    --colorITJM--primario: rgb(57 179 230);
+    --colorITJM--segundario: rgb(53 53 53);
+}
+
 body {
     height: 100%;
 }
+
+
+/*color ITJM*/
+
+.ba-itjm {
+    background-color: rgb(255, 255, 255);
+}
+
+.cob-itjm {
+    color: var(--colorITJM--segundario);
+}
+
+.cow-itjm {
+    color: rgb(255, 255, 255);
+}
+
+.cow-itjm:hover {
+    color: #39b3e6;
+}
+
+
+/***************/
+
+
+/***formulario ingreso y registro****/
 
 .form-signin {
     width: 100%;
@@ -31,17 +60,20 @@ body {
 }
 
 .btningreso {
-    color: #353535;
-    background-color: #39b3e6;
+    color: var(--colorITJM--segundario);
+    background-color: var(--colorITJM--primario);
 }
 
 .itjm {
     color: rgb(247, 247, 247);
-    background-color: #39b3e6;
+    background-color: var(--colorITJM--primario);
     display: flex;
     align-items: center;
 }
 
+
+/*****************/
+
 .itjm:hover {
-    color: #353535;
+    color: var(--colorITJM--segundario);
 }
