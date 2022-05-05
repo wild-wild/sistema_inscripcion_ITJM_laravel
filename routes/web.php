@@ -19,6 +19,5 @@ Route::get('/', InicioControler::class);
 Route::get('registro','App\Http\Controllers\inicioControler@registro');
 //menu lateral
 route::get('panel','App\Http\Controllers\inicioControler@panel');
-//panel 1
-route::get('panel/panel1','App\Http\Controllers\inicioControler@panel1');
+
 

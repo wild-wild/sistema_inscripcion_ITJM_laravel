@@ -18,7 +18,5 @@ class InicioControler extends Controller
     {
         return view('panel');
     }
-    public function panel1(){
-        return view('panel1');
-    }
+    
 }

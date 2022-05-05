@@ -14,12 +14,14 @@
     <title>ITJM</title>
 </head>
 
-<body class="ba-itjm">
+<body class="bg-c-bla p-0 m-0">
 
-    @yield('contenidoPrincipal')
+        @yield('contenidoPrincipal')
 
     <!-- Bootstrap js -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script type ="text/javascript" src="{{ asset('js/app.js') }}"></script>
+    <!--sidebar js -->
+    <script type="text/javascript" src="{{ asset('js/mijs.js') }}"></script>
 </body>
 
 </html>
