@@ -11,7 +11,7 @@
     <!-- mi estilos CSS color de iconos -->
     <link href="{{ asset('css/colorIconos.css') }}" rel="stylesheet">
     <!--titulo-->
-    <title>ITJM</title>
+    <title>@yield('title')</title>
 </head>
 
 <body class="bg-c-bla p-0 m-0">

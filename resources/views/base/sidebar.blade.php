@@ -9,7 +9,7 @@
               <li class="sideli">
                 <a class="sidea" href="#">
                         <i class="fa-brands fa-bitcoin icon"></i>
-                <span class="text nav-text">Sistemas informaticos III</span>
+                <span class="text nav-text">Menu Principal</span>
                 </a>
               </li>
             </ul>

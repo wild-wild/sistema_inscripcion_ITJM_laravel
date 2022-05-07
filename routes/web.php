@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 | contiene el grupo de middleware "web". ¡Ahora crea algo grandioso!
 |
 */
+
+//Route::get('/', InicioControler::class);
 //ruta de inicio
-Route::get('/', InicioControler::class);
+Route::get('/','App\Http\Controllers\acceso@acceso');
 //ruta de registro
-Route::get('registro','App\Http\Controllers\inicioControler@registro');
+Route::get('registro','App\Http\Controllers\registro@registro');
 //menu lateral
 route::get('panel','App\Http\Controllers\inicioControler@panel');
 
