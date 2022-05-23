@@ -1,0 +1,16 @@
+/* *************PALETA DE COLORES************* */
+:root {
+    --colorITJM--primario: rgb(57 179 230);
+    --colorITJM--segundario: rgb(53 53 53);
+    --colorITJM--blanco: rgb(255, 255, 255);
+    --colorITJM--negro: rgb(0, 0, 0);
+     /* TRANSICIONES*/
+     --tran-03: all 0.2s ease;
+     --tran-03: all 0.3s ease;
+     --tran-04: all 0.3s ease;
+     --tran-05: all 0.3s ease;
+}
+/******MIS ESTILOS******/
+.pngboxshadow{
+    filter: drop-shadow(0px -2px 4px var(--colorITJM--segundario);
+    }

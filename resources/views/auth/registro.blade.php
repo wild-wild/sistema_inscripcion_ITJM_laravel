@@ -1,6 +1,6 @@
 @extends('base/base')
 @section( 'title','Registro')
-@section('contenidoPrincipal')
+@section('contenidoEnBody')
 
 <!--FORMULARIO DE REGISTRO-->
    <div class=" m-0  vh-100 row  justify-content-center align-items-center">
@@ -35,7 +35,7 @@
     
                 <button class="w-100 btn btn-lg  bg-c-pri co-se" type="submit">Registrar</button>
                 <p class="mt-2 mb-3 text-muted">wild&copy;2022</p>
-                <p>Ingresa <a href="{{ url('/') }}">Aqui</a>.</p>
+                <p>Ingresa <a href="{{ url('/login') }}">Aqui</a>.</p>
             </form>
         </main>
    </div>

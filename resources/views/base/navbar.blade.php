@@ -1,6 +1,6 @@
 <!-- NAVBAR -->
 <div class="d-flex sticky-top  contenedor-navbar ">
-    <div class="m-1"><img src="{{ asset('img/logo.svg') }}" alt="" width="50" height="50" class="logo-itjm"></div>
+    <div class="m-1"><img src="{{ asset('img/logo.svg') }}" alt="" width="50" height="50" class="pngboxshadow"></div>
     <div class="m-3  align-items-center item-logo-nombre-navbar ">
       <p class="h3 nombre-itjm mx-auto">Instituto Tegnológico Jesus Maria</p>
     </div>

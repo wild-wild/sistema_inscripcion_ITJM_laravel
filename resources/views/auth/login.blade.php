@@ -1,7 +1,7 @@
 @extends('base/base')
 
 @section( 'title','Ingreso')
-@section( 'contenidoPrincipal')
+@section( 'contenidoEnBody')
 <!--FORMULARIO DE INGRESO-->
 <div class=" m-0  vh-100 row  justify-content-center align-items-center">
         <main class="form-signin text-center">

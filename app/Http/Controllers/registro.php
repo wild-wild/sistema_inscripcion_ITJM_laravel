@@ -8,6 +8,6 @@ class registro extends Controller
 {
     public function registro()
     {
-        return view('autenticacion.registro');
+        return view('auth.registro');
     }
 }
