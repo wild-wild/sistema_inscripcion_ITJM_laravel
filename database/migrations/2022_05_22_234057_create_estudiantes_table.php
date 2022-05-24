@@ -24,10 +24,6 @@ return new class extends Migration
             $table->nacionalidad();
             $table->genero();
             $table->fechaNacimiento();
-            $table->lugarNacimiento();
-            $table->lugarNacimiento();
-            $table->lugarNacimiento();
-            $table->lugarNacimiento();
             $table->ci();
             $table->tb();
             $table->cn();
