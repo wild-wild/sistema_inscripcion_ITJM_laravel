@@ -24,9 +24,9 @@ return new class extends Migration
             $table->nacionalidad();
             $table->genero();
             $table->fechaNacimiento();
-            $table->ci();
-            $table->tb();
-            $table->cn();
+            $table->docCI();
+            $table->docTB();
+            $table->docCN();
             $table->timestamps();
         });
     }
