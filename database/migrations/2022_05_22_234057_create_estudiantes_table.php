@@ -15,14 +15,15 @@ return new class extends Migration
     {
         Schema::create('estudiantes', function (Blueprint $table) {
             $table->id();
+            $table->numeroDNI();
             $table->nombre();
             $table->apellidoPaterno();
             $table->apellidoMaterno();
-            $table->numeroDNI();
+            $table->genero();
             $table->correoElectronico();
             $table->NroCelular();
             $table->nacionalidad();
-            $table->genero();
+            $table->lugarNacimiento();
             $table->fechaNacimiento();
             $table->docCI();
             $table->docTB();

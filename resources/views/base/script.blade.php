@@ -3,6 +3,6 @@
 <!--sidebar js -->
 <script type="text/javascript" src="{{ asset('js/sidebarjs.js') }}"></script>
 <!--clic R off js -->
-<script type="text/javascript" src="{{ asset('js/offclic.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/ooffclic.js') }}"></script>
 <!-- livewire -->
 @livewireScripts
