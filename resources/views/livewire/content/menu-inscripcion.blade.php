@@ -1,5 +1,18 @@
-@section( 'title','Inscripcion')
+@section('title', 'Inscripcion')
 
 <section class="contenido">
-<p>inscripcion</p>
+
+
+    <form class="row g-3 m-4">
+        <div class="col-md-12 text-center">
+            <h2>INSCRIBIR ESTUDIANTE</h2>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label"> Buscar Por Numero Carnet</label>
+            <div class="d-flex">
+                    <input type="search" class="form-control bg-c-bla" id="search" name="search" placeholder="Nro Dni">
+                    <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </form>
 </section>

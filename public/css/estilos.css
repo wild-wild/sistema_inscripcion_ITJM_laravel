@@ -1,5 +1,7 @@
 /* *************PALETA DE COLORES************* */
 :root {
+    /* primario #39b3e6
+    segundario #353535 */
     --colorITJM--primario: rgb(57 179 230);
     --colorITJM--segundario: rgb(53 53 53);
     --colorITJM--blanco: rgb(255, 255, 255);
@@ -75,6 +77,9 @@ body {
 .co-ho-bla {
     color: var(--colorITJM--blanco);
 }
+.co-ho-bla-pri {
+    color: var(--colorITJM--blanco);
+}
 
 .co-ho-ne {
     color: var(--colorITJM--negro);
@@ -93,6 +98,9 @@ body {
 
 .co-ho-bla:hover {
     color: var(--colorITJM--negro);
+}
+.co-ho-bla-pri:hover {
+    color: var(--colorITJM--primario);
 }
 
 .co-ne:hover {
@@ -434,3 +442,11 @@ body {
 }
 
 /*******************  HOME PRINCIPAL **************************/
+/*******************  FOOTER **************************/
+.footer{
+    position:fixed;
+    top: 97.2%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+/*******************  FOOTER **************************/

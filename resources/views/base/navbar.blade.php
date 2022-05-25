@@ -12,7 +12,7 @@
       </p>
       <ul class="dropdown-menu" aria-labelledby="MenuButtonCerrar">
         <li><a class="dropdown-item" href="#">mi perfil</a></li>
-        <li><a class="dropdown-item" href="#">salir :)</a></li>
+        <li><a class="dropdown-item" href="/">salir :)</a></li>
       </ul>
     </div>
   </div>

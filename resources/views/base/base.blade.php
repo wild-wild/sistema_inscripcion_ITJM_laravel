@@ -3,7 +3,7 @@
 
 @include('base.head')
 
-<body class="bg-c-bla p-0 m-0">
+<body class="bg-c-bla p-0 m-0 fondo">
     
     @yield('contenidoEnBody')
 

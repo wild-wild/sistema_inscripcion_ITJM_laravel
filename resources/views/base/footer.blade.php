@@ -1,8 +1,8 @@
-<footer class="bg-light text-center text-lg-start position-absolute bottom-0 end-0 w-100">
+<footer class="bg-light text-center text-lg-start bottom-0 end-0 w-100 footer">
     <!-- Copyright -->
-    <div class="text-center p-1" style="background-color: rgba(70, 68, 68, 0.2);">
+    <div class="text-center p-1 bg-c-se co-bla">
         © 2022 Copyright:
-        <a class="text-dark" href="http://wa.me/59177074713" target="blank">Wild</a>
+        <a class="co-bla co-ho-bla-pri" href="http://wa.me/59177074713" target="blank">Wild</a>
     </div>
     <!-- Copyright -->
 </footer>
