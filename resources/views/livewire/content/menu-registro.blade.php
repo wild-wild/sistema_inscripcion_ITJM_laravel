@@ -1,18 +1,34 @@
 @section('title', 'Registro')
 <section class="contenido">
-    <form class="row g-3 m-4 needs-validation" novalidate>
+    <form class="row g-3 m-3 needs-validation mb-5" novalidate>
         <div class="col-md-12 text-center">
-            <h2>REGISTRAR ESTUDIANTE</h2>
+            <h3>Datos Del Estudiante</h3>
+            <hr>    
         </div>
-        <div class="col-md-3">
-            <label class="form-label">Numero Carnet</label>
+        <div class="col-md-2">
+            <label class="form-label">Cedula de Identidad</label>
             <input type="text" class="form-control form-control bg-c-bla" required>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
+            <label class="form-label">Expedido</label>
+            <select class="form-select bg-c-bla" required>
+                <option selected disabled value="">--Seleccionar--</option>
+                <option>SC</option>
+                <option>LP</option>
+                <option>CB</option>
+                <option>OR</option>
+                <option>PT</option>
+                <option>TJ</option>
+                <option>CH</option>
+                <option>BE</option>
+                <option>PD</option>
+            </select>
+        </div>
+        <div class="col-md-2">
             <label class="form-label">Nombres</label>
             <input type="text" class="form-control bg-c-bla" required>
         </div>
-        
+
         <div class="col-md-2">
             <label class="form-label">Apellido Paterno</label>
             <input type="text" class="form-control bg-c-bla" required>
@@ -22,11 +38,11 @@
             <input type="text" class="form-control bg-c-bla" required>
         </div>
         <div class="col-md-2">
-            <label class="form-label" >Genero</label>
-            <select class="form-select bg-c-bla"required>
+            <label class="form-label">Genero</label>
+            <select class="form-select bg-c-bla" required>
                 <option selected disabled value="">--Seleccionar--</option>
-                <option >Masculino</option>
-                <option >Femenino</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
             </select>
         </div>
 
@@ -36,19 +52,23 @@
         </div>
         <div class="col-md-2">
             <label class="form-label">Lugar de Nacimiento</label>
-            <input type="text" class="form-control bg-c-bla"required>
+            <input type="text" class="form-control bg-c-bla" required>
+        </div>
+        <div class="col-md-2">
+            <label class="form-label">Fecha de Nacimiento</label>
+            <input type="date" class="form-control bg-c-bla" required>
         </div>
         <div class="col-md-3">
             <label class="form-label">Direccion</label>
-            <input type="text" class="form-control bg-c-bla"required>
+            <input type="text" class="form-control bg-c-bla" required>
         </div>
         <div class="col-md-3">
             <label class="form-label">Correo Electronico</label>
-            <input type="text" class="form-control bg-c-bla"required>
+            <input type="email" class="form-control bg-c-bla" required>
         </div>
         <div class="col-md-2">
             <label class="form-label">Telefono</label>
-            <input type="tel" class="form-control bg-c-bla"required>
+            <input type="tel" class="form-control bg-c-bla" required>
         </div>
         <div class="col-md-12">
             <div class="form-check">
@@ -74,14 +94,55 @@
                 </label>
             </div>
         </div>
-        <div class="col-12 text-center">
+        {{-- datos de tutor --}}
+        <div class="col-md-12 text-center">
+            <hr>
+            <h3>Datos Del Tutor</h3>
+            <hr>    
+        </div>
+       
+        <div class="col-md-3">
+            <label class="form-label">Nombres</label>
+            <input type="text" class="form-control bg-c-bla" required>
+        </div>
+
+        <div class="col-md-3">
+            <label class="form-label">Apellido Paterno</label>
+            <input type="text" class="form-control bg-c-bla" required>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Apellido Materno</label>
+            <input type="text" class="form-control bg-c-bla" required>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Telefono</label>
+            <input type="tel" class="form-control bg-c-bla" required>
+        </div>
+        {{-- datos de informacion laboral --}}
+        <div class="col-md-12 text-center">
+            <hr>
+            <h3>Imformacion laboral</h3>
+            <hr>    
+        </div>
+       
+        <div class="col-md-4">
+            <label class="form-label">Nombre de la Empresa</label>
+            <input type="text" class="form-control bg-c-bla" required value="-">
+        </div>
+
+        <div class="col-md-4">
+            <label class="form-label">Telefono</label>
+            <input type="tel" class="form-control bg-c-bla" required value="-">
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Direccion</label>
+            <input type="text" class="form-control bg-c-bla" required value="-">
+        </div>
+         {{-- button --}}
+         <div class="col-12 text-center">
             <button type="submit" class="btn bg-c-pri co-ne">Registrar</button>
             <button type="submit" class="btn bg-c-se co-bla">Cancelar</button>
         </div>
-        <div class="col-12 text-center">
-            
-        </div>
-        
     </form>
-    
+
 </section>

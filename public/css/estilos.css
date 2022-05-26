@@ -445,7 +445,7 @@ body {
 /*******************  FOOTER **************************/
 .footer{
     position:fixed;
-    top: 97.2%;
+    top: 97.33%;
     left: 50%;
     transform:translate(-50%,-50%)
 }
