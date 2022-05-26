@@ -26,7 +26,8 @@ Route::get('/', HomeController::class);
 //ruta de registro
 Route::get('/registro', [registro::class, 'registro']);
 //ruta de login
-Route::get('/login', [login::class, 'login']);
+Route::get('/login', [login::class, 'login'])->name('login');
+;
 //livewire menu principal
 Route::get('/principal', MenuPrincipal::class, 'principal')->name('principal');
 //livewire menu registro

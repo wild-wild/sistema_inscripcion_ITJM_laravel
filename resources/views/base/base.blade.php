@@ -6,8 +6,7 @@
 <body class="bg-c-bla p-0 m-0 fondo">
     
     @yield('contenidoEnBody')
-
-    @include('base.script')
+    @include('base.footer')
 </body>
 
 </html>

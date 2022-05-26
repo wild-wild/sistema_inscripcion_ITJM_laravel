@@ -16,12 +16,12 @@
                 </div>
                 <div class="administrativo">
                     <i class="fa-solid fa-user-gear logo-estudent"></i>
-                    <a href="/principal" class="admi">Administrativo</a>
+                    <a href="{{ route('login') }}" class="admi">Adminisooootrativo</a>
                 </div>
             </div>
            
         </div>
-    @include('base.footer')
+    
    
     
 @endsection
