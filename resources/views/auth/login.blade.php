@@ -18,7 +18,11 @@
                                 <label>Contraseña</label>
                         </div>
         
+<<<<<<< HEAD
                         <button type="submit"class="w-100 btn btn-lg bg-c-pri co-se" href="/principal"> INGRESAR</button>
+=======
+                        <button type="submit"class="w-100 btn btn-lg bg-c-pri co-se" href="{{ route('principal') }}"> INGRESAR</button>
+>>>>>>> d3956b8b7c9516d6e09d6fee2252f44761f50490
                         <p class="mt-4 mb-3 text-muted">&copy; 2022</p>
                         <p>Registrate <a href="{{ route('principal') }}">Aqui</a>.</p>
                         
