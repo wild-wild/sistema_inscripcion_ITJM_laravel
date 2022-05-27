@@ -10,8 +10,8 @@
         <div class="col-md-3">
             <label class="form-label"> Buscar Por Numero Carnet</label>
             <div class="d-flex">
-                    <input type="search" class="form-control bg-c-bla" id="search" name="search" placeholder="Nro Dni">
-                    <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    <input type="search" class="form-control bg-c-bla" id="search" name="search" placeholder="Numero de Identidad">
+                    <button type="button" class="btn bg-c-se co-bla   "><i class="fa fa-search"></i></button>
             </div>
         </div>
     </form>

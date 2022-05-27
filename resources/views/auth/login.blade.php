@@ -5,7 +5,7 @@
 <!--FORMULARIO DE INGRESO-->
 <div class=" m-0  vh-100 row  justify-content-center align-items-center">
         <main class="form-signin text-center">
-                <form method="POST" action="">
+                <form >
                         <img class="mb-4" src="{{ asset('img/logotexto.svg') }}" alt="" width="200" height="200">
                         <h1 class="h4 mb-3 fw-normal">Iniciar sesión</h1>
         
@@ -15,12 +15,12 @@
                         </div>
                         <div class="form-floating">
                                 <input type="password" class="form-control bg-c-bla" id="floatingPassword" placeholder="contraseña">
-                                <label for="floatingPassword">Contraseña</label>
+                                <label>Contraseña</label>
                         </div>
         
-                        <button type="submit"class="w-100 btn btn-lg bg-c-pri co-se" href="/panel"> INGRESAR</button>
+                        <button type="submit"class="w-100 btn btn-lg bg-c-pri co-se" href="/principal"> INGRESAR</button>
                         <p class="mt-4 mb-3 text-muted">&copy; 2022</p>
-                        <p>Registrate <a href="{{url('/registro')}}">Aqui</a>.</p>
+                        <p>Registrate <a href="{{ route('principal') }}">Aqui</a>.</p>
                         
                 </form>
         </main>

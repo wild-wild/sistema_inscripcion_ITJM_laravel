@@ -16,7 +16,7 @@
                 </div>
                 <div class="administrativo">
                     <i class="fa-solid fa-user-gear logo-estudent"></i>
-                    <a href="/principal" class="admi">Administrativo</a>
+                    <a href="{{ route('login') }}" class="admi">Administrativo</a>
                 </div>
             </div>
            

@@ -24,13 +24,13 @@ use App\Http\Livewire\Content\MenuReporte;
 //ruta de inicio
 Route::get('/', HomeController::class);
 //ruta de registro
-Route::get('/registro', [registro::class, 'registro']);
+Route::get('/registro', [registro::class, 'registro'])->name('registro');
 //ruta de login
-Route::get('/login', [login::class, 'login']);
+Route::get('/login', [login::class, 'login'])->name('login');
 //livewire menu principal
 Route::get('/principal', MenuPrincipal::class, 'principal')->name('principal');
 //livewire menu registro
-Route::get('/registro', MenuRegistro::class, 'registro')->name('registro');
+Route::get('/registro', MenuRegistro::class, 'registro')->name('Mregistro');
 //livewire menu inscripcion
 Route::get('/inscripcion', MenuInscripcion::class, 'inscripcion')->name('inscripcion');
 //livewire menu pago

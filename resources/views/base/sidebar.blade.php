@@ -14,8 +14,8 @@
                      </a>
                  </li>
                  {{-- menu registro --}}
-                 <li class="sideli {{ request()->routeIs('registro') ? 'activo' : '' }}">
-                     <a  href="{{ route('registro') }}">
+                 <li class="sideli {{ request()->routeIs('Mregistro') ? 'activo' : '' }}">
+                     <a  href="{{ route('Mregistro') }}">
                          <i class="fa-brands fa-bitcoin icon"></i>
                          <span class="text">Registro</span>
                      </a>
