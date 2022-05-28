@@ -363,7 +363,7 @@ body {
     flex-direction: row;
 }
 
-.estudiantes,
+.estudiante,
 .administrativo {
     width: 200px;
     height: 100px;
@@ -381,6 +381,9 @@ body {
     text-decoration: none;
     color: var(--colorITJM--negro);
 }
+span .admi{
+    text-decoration: none;
+}
 
 .estu,
 .admi:hover {
@@ -391,7 +394,7 @@ body {
     color: var(--colorITJM--negro);
 }
 
-.estudiantes:hover {
+.estudiante:hover {
     background-color: var(--colorITJM--primario);
     animation: AnimHome 1s ease 0s 1 normal forwards;
 
@@ -402,7 +405,7 @@ body {
     animation: AnimHome 1s ease 0s 1 normal forwards;
 }
 
-.logo-estudent {
+.logo-login {
     padding: 0 15px 0 0;
 }
 
@@ -432,7 +435,7 @@ body {
         font-size: 12px;
     }
 
-    .estudiantes,
+    .estudiante,
     .administrativo {
 
         width: 150px;
@@ -445,7 +448,7 @@ body {
 /*******************  FOOTER **************************/
 .footer{
     position:fixed;
-    top: 97.33%;
+    top: 97.34%;
     left: 50%;
     transform:translate(-50%,-50%)
 }
