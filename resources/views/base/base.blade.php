@@ -7,6 +7,7 @@
     
     @yield('contenidoEnBody')
     @include('base.footer')
+    @include('base.script')
 </body>
 
 </html>

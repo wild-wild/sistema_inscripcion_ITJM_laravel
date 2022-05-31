@@ -18,7 +18,7 @@
                 </div>
             </a>
 
-            <a href="{{ route('login') }}" class="admi">
+            <a href="{{ route('loginAdmin') }}" class="admi">
                 <div class="admi administrativo">
                     <i class="fa-solid fa-user-gear logo-login"></i>
                     <span>Administrativo</span>

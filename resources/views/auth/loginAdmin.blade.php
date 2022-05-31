@@ -11,7 +11,7 @@
         
                         <div class="form-floating">
                                 <input type="text" class="form-control bg-c-bla" id="floatingInput" placeholder="codigo">
-                                <label for="floatingInput">Codigo De Estudiante</label>
+                                <label for="floatingInput">Codigo De Administrador</label>
                         </div>
                         <div class="form-floating">
                                 <input type="password" class="form-control bg-c-bla" id="floatingPassword" placeholder="contraseña">
@@ -20,7 +20,7 @@
         
                         <button type="submit"class="w-100 btn btn-lg bg-c-pri co-se" href="{{ route('principal') }}"> INGRESAR</button>
                         <p class="mt-4 mb-3 text-muted">&copy; 2022</p>
-                        <p>Registrate <a href="#s">Aqui</a>.</p>
+                        <p>Registrate <a href="{{ route('principal') }}">Aqui</a>.</p>
                         
                 </form>
         </main>

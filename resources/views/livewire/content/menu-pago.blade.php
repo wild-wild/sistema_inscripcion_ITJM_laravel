@@ -1,4 +1,6 @@
 @section('title', 'Pago')
+
+
 <section class="contenido">
     <form class="row g-3 m-3 needs-validation mb-5" novalidate>
         <div class="col-md-12 text-center">

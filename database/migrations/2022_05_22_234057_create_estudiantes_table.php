@@ -20,11 +20,11 @@ return new class extends Migration
             $table->apellidoPaterno();
             $table->apellidoMaterno();
             $table->genero();
-            $table->correoElectronico();
-            $table->NroCelular();
             $table->nacionalidad();
             $table->lugarNacimiento();
             $table->fechaNacimiento();
+            $table->correoElectronico();
+            $table->NroCelular();
             $table->docCI();
             $table->docTB();
             $table->docCN();

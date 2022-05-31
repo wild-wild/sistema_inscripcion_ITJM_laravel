@@ -1,8 +1,6 @@
 @section('title', 'Inscripcion')
 
 <section class="contenido">
-
-
     <form class="row g-3 m-4">
         <div class="col-md-12 text-center">
             <h2>INSCRIBIR ESTUDIANTE</h2>

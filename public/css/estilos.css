@@ -191,7 +191,7 @@ body {
 }
 
 .sidebar.close {
-    width: 88px;
+    width: 84px;
 
 
 }
@@ -203,13 +203,7 @@ body {
     align-items: center;
     margin-top: 10px;
 }
-
-.sidebar header .image,
-.sidebar .icon {
-    min-width: 60px;
-    border-radius: 6px;
-
-}
+ 
 
 .sidebar .icon {
     min-width: 60px;
@@ -263,9 +257,9 @@ body {
     transition: var(--tran-05);
 }
 
-.sidebar.close .toggle {
+/* .sidebar.close .toggle {
     transform: translateY(-50%) rotate(0deg);
-}
+} */
 
 .sidebar .menu {
     margin-top: 5px;

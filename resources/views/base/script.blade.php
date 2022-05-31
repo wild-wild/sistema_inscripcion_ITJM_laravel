@@ -3,7 +3,7 @@
 <!--sidebar js -->
 <script type="text/javascript" src="{{ asset('js/sidebar.js') }}"></script>
 <!--clic R off js -->
-<script type="text/javascript" src="{{ asset('js/ooffclic.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/offclic.js') }}"></script>
 <!--validate -->
 <script type="text/javascript" src="{{ asset('js/validate.js') }}"></script>
 <!-- livewire -->
